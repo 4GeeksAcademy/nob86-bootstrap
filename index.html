@@ -21,30 +21,31 @@
                 <span>Instagram</span>
             </a>
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modal1">
                     Create a new post
                 </button>
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                    style="display: none;" aria-hidden="true">
+                <div class="modal" tabindex="-1" id="modal1">
                     <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                add the caption of your post here
-                            </div>
-                            <div class="modal-footer">
-                                <i class="fa-solid fa-camera"></i>
-                                <i class="fa-solid fa-location-dot"></i>
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-success">Post</button>
-                            </div>
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title">Create a new post</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
+                        <div class="modal-body">
+                          <p>Add the caption of your post here:</p>
+                          <div>
+                            <button type="button" class="btn btn-secondary btn-sm"><i class="fa-solid fa-camera"></i></button>
+                            <button type="button" class="btn btn-secondary btn-sm"><i class="fa-solid fa-location-dot"></i></button>
+                          </div>
+                        </div>
+                
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-success">Post</button>
+                        </div>
+                      </div>
                     </div>
-                </div>
+                  </div>
                 <a class="nav-link dropdown-toggle text-secondary" href="#" id="navbarDropdownMenuLink"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="fa-solid fa-gear"></i>
@@ -60,7 +61,7 @@
     </nav>
 
     
-        <ul class="nav justify-content-center">
+        <ul class="nav mt-2 mb-2 justify-content-center">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="index.html"><i class="fa-solid fa-table-cells"></i></a>
             </li>
